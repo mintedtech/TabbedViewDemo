@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TabbedViewDemo</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">HelpActivity</string>
+
+    <string name="helpDialog_banner">Please click on a section to display its text.</string>
+    <string name="show_tabs">Show Tabs</string>
+
+    <!-- This contains the titles used on the tabs -->
+    <string-array name="helpSectionTitles" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <!-- This contains the text to be displayed in the corresponding section's TextView -->
+    <string-array name="helpSections">
+        <item>Section 1 Text\nLine 2</item>
+        <item>Section 2 Text\nLine 2</item>
+        <item>Section 3 Text\nLine 2</item>
+        <item>Section 4 Text\nLine 2</item>
+        <item>Section 5 Text\nLine 2</item>
+    </string-array>
+
+</resources>
